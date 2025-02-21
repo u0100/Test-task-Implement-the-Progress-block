@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Test-task-Implement-the-Progress-block</title>
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<div class="progress-container">
+		<div class="progress-container-circle">
+			<h2 class="header">Progress</h2>
+			<div class="progress-ring">
+				<svg width="150" height="150">
+					<circle class="progress-ring-circle-bg" stroke="#dbe9ee" stroke-width="11" fill="transparent" r="55"
+						cx="75" cy="75" />
+					<circle class="progress-ring-circle" stroke="#006eff" stroke-width="11" fill="transparent" r="55"
+						cx="75" cy="75" />
+				</svg>
+			</div>
+		</div>
+
+		<div class="progress-container-control">
+			<div class="value-controller controller">
+				<input type="number" id="value-input" min="0" max="100" value="0">
+				<div class="controller-title">Value</div>
+			</div>
+
+			<div class="animate-controller controller">
+				<label class="switch">
+					<input type="checkbox" id="animate-toggle">
+					<span class="move"></span>
+				</label>
+				<div class="controller-title">Animate</div>
+			</div>
+
+			<div class="hide-controller controller">
+				<label class="switch">
+					<input type="checkbox" id="hide-toggle">
+					<span class="move"></span>
+				</label>
+
+				<div class="controller-title">Hide</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
