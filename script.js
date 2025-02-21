@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	hideToggle.addEventListener('change', ({ target }) => {
-		document.querySelector('.progress-container').style.display = target.checked ? 'none' : 'block';
+		document.querySelector('.progress-ring').style.display = target.checked ? 'none' : 'block';
 	});
 
 	setProgress(valueInput.value);
