@@ -1,5 +1,5 @@
 # Test-task-Implement-the-Progress-block
-Тестовое задание frontend
+Тестовое задание frontend Ozon
 
 Проект опубликован и доступен по ссылке на github pages: https://u0100.github.io/Test-task-Implement-the-Progress-block/
 
